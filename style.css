@@ -70,7 +70,7 @@ body {
 }
 
 .output {
-    margin-top: 50px;
+    margin-top: -50px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -80,6 +80,7 @@ body {
 
 .redlight, .yellowlight, .greenlight {
     /* margin: 20px; */
+    font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -103,5 +104,9 @@ body {
     }
     .light-div {
         width: 45vw;
+    }
+
+    .light p {
+        margin-top: 25px;
     }
 }
